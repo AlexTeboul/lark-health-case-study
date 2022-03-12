@@ -8,6 +8,9 @@ Generated a mock dataset of 2000 users to explore analysis, reporting, A/B Testi
 * In this colab notebook, I create a Users table that seeks to emulate the type of data that might be found at Lark Health. 
 * Specifically, I use this notebook to generate 2000 users (male and female) alongside real-world appropriate features like age, height, BMI, a1c, etc.
 * The dataset is further split by a cohort column. Cohort A represents a scenario where men are not engaging as much with the features of the app, as indicated by lower total_conversations, total_meals_logged, total_weight_measurements, total_missions_completed, percentage_healthy_meals_consumed, and ultimately a net_promotor_score (How likely you are to recommend the app to someone else on a scale from 1 to 10)
+* **Insights:** 
+  * The start and end dates will show that users sign up typically towards the beginning of each month, but most start dates peak in September. Insight is that marketing is not even throughout the year and there's a lull in signups in the late fall and winter that needs to be addressed.
+  * The men in cohortA have lower engagement and do not show improvement at the same rate as the women in cohortA. However, after a hypothetical feature change, men in cohortB end up actually outperforming the women. The change was successful and can be showed statistically. Ignore the dates for this example.
 
 * **Users**
   * userid, name, sex, age, height, start_date, end_date
